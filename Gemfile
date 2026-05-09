@@ -7,7 +7,7 @@
 
 source "https://rubygems.org"
 
-gem "rails", "= 7.0.8.6"
+gem "rails", "7.2.3"
 gem "wagons", "~> 0.7.0"
 
 gem "active_record_distinct_on"
@@ -84,8 +84,8 @@ gem "rest-client"
 gem "rexml"
 gem "rotp"
 gem "rqrcode"
-gem "rswag-api", "~> 2.13"
-gem "rswag-ui", "~> 2.13"
+gem "rswag-api", "~> 2.17"
+gem "rswag-ui", "~> 2.17"
 gem "rubyzip"
 gem "seed-fu"
 gem "sentry-raven"
@@ -127,7 +127,7 @@ group :development do
   gem "rubocop", require: false
   gem "rubocop-rspec", require: false
   gem "spring-commands-rspec"
-  gem "standard", "~> 1.28", require: false
+  gem "standard", "~> 1.54", require: false
   gem "standard-rails", require: false
 end
 
